@@ -121,7 +121,8 @@ int init_button() {
 // Main program
 int main(void)
 {
-	/*Tavoittelen 2 pistettä. Ohjelmassa on pause nappi ja ledit*/
+	/*yhtä pistettä */
+	
 	init_led();
 	init_button();
         int ret = init_uart();
